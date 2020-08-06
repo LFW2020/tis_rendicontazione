@@ -6,6 +6,7 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element type="xs:string" name="identificativoPratica" minOccurs="1" />
+	      <xs:element type="xs:string" name="denominazioneAPL" minOccurs="1" />
               <xs:element type="xs:string" name="ragioneSocialeUtilizzatore" minOccurs="1" />
               <xs:element type="xs:string" name="partitaIvaUtilizzatore" minOccurs="1" />
               <xs:element type="xs:string" name="matricolaInpsUtilizzatore" minOccurs="1" />
